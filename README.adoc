@@ -20,7 +20,7 @@ git clone https://github.com/integr8ly/tutorial-web-app
 ----
 xfc <target directory>
 ---- 
-
++
 where <target directory> is the directory that contains the raw AsciiDoc files.
 
 . Run Solution Explorer:
