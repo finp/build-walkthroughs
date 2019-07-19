@@ -1,0 +1,34 @@
+= Building Walkthroughs from arbitrary AsciiDoc directory
+
+Walkthroughs render in Solution Explorer, but arbitrary adoc files do not.
+
+This script creates a ~/tutorial-web-app-walkthroughs directory and populates it with a set of walkthroughs derived from the <target directory>
+
+
+To view a directory of adoc files in Solution Explorer:
+
+. Clone https://github.com/integr8ly/tutorial-web-app into your home directory:
++
+----
+cd 
+git clone https://github.com/integr8ly/tutorial-web-app
+
+---- 
+
+. Run the script to create and populate ~/tutorial-web-app-walkthroughs:
++
+----
+xfc <target directory>
+---- 
+
+where <target directory> is the directory that contains the raw AsciiDoc files.
+
+. Run Solution Explorer:
++
+----
+cd tutorial-web-app
+yarn install
+yarn start:dev
+
+----
+
